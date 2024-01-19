@@ -6,7 +6,7 @@ This directory includes code to run the Imitate Observe task GLM on SPINS and SP
 Activate corresponding python env before running any .py scripts using source /projects/loliver/SPINS_ASD_ImObs_GLM/code/py_venv/bin/activate (see note below re this)  
 **cifti_clean_ImObs_*mm_SP*.sh**: Drops 4 TRs and applies 6 or 2 mm smoothing to SPINS or SPASD Imitate Observe task images from ciftify   
 
-**parse_confounds_32p_no_GSR_SPASD.sh** and parse_confounds_32p_no_GSR_SPINS.sh: Scripts to run parse_confounds_32p_no_GSR.py  
+**parse_confounds_32p_no_GSR_SPASD.sh** and **parse_confounds_32p_no_GSR_SPINS.sh**: Scripts to run parse_confounds_32p_no_GSR.py  
 **parse_confounds_32p_no_GSR.py**: Parses fmriprep confound file for 32 parameter confound regression (no GSR) in GLM  
 
 **ImObs_GLM_*mm_no_GSR_SP*.sh**: Script to run ImObs_GLM_*mm_no_GSR.py on SPASD and SPINS participants, respectively (with 6 or 2 mm smoothed files)  
